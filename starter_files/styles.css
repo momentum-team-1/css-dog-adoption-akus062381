@@ -1,10 +1,9 @@
 h1 {
     color: white;
     background-color: rgb(43, 43, 105);
-    margin: -8px;
-    height: 60px;
-    border-width: 0;
     font-size: 24px;
+    padding: 30px; 30px;
+    margin: 0 auto;
 }
 
 span {
