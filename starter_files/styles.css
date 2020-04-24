@@ -48,13 +48,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33%
+    /* width: 33%; */
     height: 100%;
-    background position: center;
+    background-position: center;
     background-size: cover;
     flex-wrap: wrap;
     flex-direction: column;
-    display: inline-block;
+    flex: 1;
+    /* display: inline-block; */
 }
 
 footer {
@@ -69,7 +70,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33%
+    width: 33%;
     height: 100%;
     background position: center;
     background-size: cover;
@@ -99,4 +100,7 @@ footer {
     color: black;
 }
 
-
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+}
