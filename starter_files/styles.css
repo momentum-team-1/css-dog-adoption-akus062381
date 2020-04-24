@@ -58,15 +58,46 @@ body {
     padding: 10px;
 }
 
-.image {
+footer {
     display: flex;
-    display: inline-block;
-    width: 30%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    opacity: 0.5;
+    height: 30vh;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%
+    height: 100%;
+    background position: center;
+    background-size: cover;
+}
+
+#donate {
     background-color: rgb(236, 164, 236);
-    
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/donate.jpg);
+    color: black;
+}
+
+#volunteer {
+    background-color: rgb(236, 164, 236);
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/volunteer.jpg);
+    color: black;
+}
+
+#location {
+    background-color: rgb(236, 164, 236);
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/location.png);
+    color: black;
 }
 
 
