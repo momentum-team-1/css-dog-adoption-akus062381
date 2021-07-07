@@ -1,0 +1,106 @@
+header {
+    color: white;
+    background-color: rgb(43, 43, 105);
+    font-size: 16px;
+    padding: 20px; 20px;
+    margin: 0 auto;
+}
+
+span {
+    border-radius: 20%;
+    background-color: rgb(96, 176, 202);
+    color: black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 10px;
+    border-width: 10px;
+    display: inline-block;
+}
+
+p {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-block-end: 6px;
+}
+
+.name {
+    border-block-end: 2px;
+    font-size: 14px;
+}
+.card {
+    /* display: inline-block; */
+    /* width: 30%; */
+    /* vertical-align: top; */
+    /* margin-inline-end: 10px; */
+    /* margin: 10px; */
+    /* align-items: center; */
+    /* justify-content: flex-start;  */
+    /* align-content: flex-end;  */
+    /* display: flex; */
+    /* flex-grow: 1; */
+}
+
+body {
+    margin: 10px 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 33%; */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    /* display: inline-block; */
+}
+
+footer {
+    display: flex;
+    height: 30vh;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    background position: center;
+    background-size: cover;
+}
+
+#donate {
+    background-color: rgb(236, 164, 236);
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/donate.jpg);
+    color: black;
+}
+
+#volunteer {
+    background-color: rgb(236, 164, 236);
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/volunteer.jpg);
+    color: black;
+}
+
+#location {
+    background-color: rgb(236, 164, 236);
+    opacity: .5;
+    width: 33%;
+    background-image: url(images/location.png);
+    color: black;
+}
+
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+}
